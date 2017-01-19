@@ -4,6 +4,7 @@
 	<title>Login page</title>
 </head>
 <body>
+	//php
 	<?php
 		if (isset($_POST['log_in']) && !empty($_POST['login']) && !empty($_POST['password'])) {
 			if ($_POST['login'] == "admin" && $_POST['password'] == "admin123") {
