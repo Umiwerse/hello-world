@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Adding Contacts</title>
+    <style>
+        #border {
+            border: 1px solid #808080;
+            padding: 20px;
+            width: 400px;
+            margin: 0 auto;
+        }
+        input[type="text"] {
+            width: 285px;
+        }
+        input[type="radio"] {
+            width: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div id="border">
+        <div style="font-size: x-large; font-weight: bold; clear: both">Adding Contacts</div>
+        <br>
+        <form action="insert_data.php" method="post">
+            <div style="margin-top: 10px">
+                <div style="float: left">First</div>
+                <div style="text-align: right">
+                    <input type="text" name="first" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Last</div>
+                <div style="text-align: right">
+                    <input type="text" name="last" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Email</div>
+                <div style="text-align: right">
+                    <input type="text" name="email" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Home</div>
+                <div style="text-align: right">
+                    <input type="radio" name="phone_radio" title="" value="home">
+                    <input type="text" name="home" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Work</div>
+                <div style="text-align: right">
+                    <input type="radio" name="phone_radio" title="" value="work" checked>
+                    <input type="text" name="work" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Cell</div>
+                <div style="text-align: right">
+                    <input type="radio" name="phone_radio" title="" value="cell">
+                    <input type="text" name="cell" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Address 1</div>
+                <div style="text-align: right">
+                    <input type="text" name="address_1" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Address 2</div>
+                <div style="text-align: right">
+                    <input type="text" name="address_2" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">City</div>
+                <div style="text-align: right">
+                    <input type="text" name="city" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">State</div>
+                <div style="text-align: right">
+                    <input type="text" name="state" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Zip</div>
+                <div style="text-align: right">
+                    <input type="text" name="zip" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Country</div>
+                <div style="text-align: right">
+                    <input type="text" name="country" title="">
+                </div>
+            </div>
+            <div style="margin-top: 10px">
+                <div style="float: left">Birthday</div>
+                <div style="text-align: right">
+                    <input type="text" name="birthday" title="">
+                </div>
+            </div>
+            <br>
+            <div style="text-align: right">
+                <input type="submit" name="done" title="" value="DONE">
+            </div>
+        </form>
+    </div>
+</body>
+</html>
